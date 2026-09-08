@@ -4,8 +4,6 @@ Building my foundational knowledge in Data Structures & Algorithms — one patte
 
 ## Progress
 
-![Progress](https://img.shields.io/badge/Progress-0%2F150-red)
-
 | Topic | Problems | Done |
 |---|---|---|
 | [Arrays & Hashing](#arrays--hashing) | 9 | 0/9 |
@@ -14,7 +12,7 @@ Building my foundational knowledge in Data Structures & Algorithms — one patte
 | [Stack](#stack) | 7 | 0/7 |
 | [Binary Search](#binary-search) | 7 | 0/7 |
 | [Linked List](#linked-list) | 11 | 0/11 |
-| [Trees](#trees) | 14 | 0/14 |
+| [Trees](#trees) | 14 | 1/14 |
 | [Tries](#tries) | 3 | 0/3 |
 | [Heap / Priority Queue](#heap--priority-queue) | 7 | 0/7 |
 | [Backtracking](#backtracking) | 9 | 0/9 |
@@ -26,9 +24,8 @@ Building my foundational knowledge in Data Structures & Algorithms — one patte
 | [Intervals](#intervals) | 6 | 0/6 |
 | [Math & Geometry](#math--geometry) | 8 | 0/8 |
 | [Bit Manipulation](#bit-manipulation) | 7 | 0/7 |
-| **Total** | **148** | **0/148** |
+| **Total** | **148** | **1/148** |
 
-> Update the badge and table manually (or script it off the checkboxes below) as you go. A green badge you didn't earn is worthless.
 
 ## Problem List
 
@@ -90,7 +87,7 @@ Building my foundational knowledge in Data Structures & Algorithms — one patte
 - [ ] Reverse Nodes in k-Group
 
 ### Trees
-- [ ] Invert Binary Tree
+- ✅ Invert Binary Tree
 - [ ] Maximum Depth of Binary Tree
 - [ ] Diameter of Binary Tree
 - [ ] Balanced Binary Tree
