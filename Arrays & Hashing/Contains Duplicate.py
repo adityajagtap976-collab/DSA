@@ -1,5 +1,5 @@
 # Brute force way to check if the array contains duplicates
-def contains_duplicate_brute(nums):
+def contains_duplicate_brute(nums: list[int]) -> bool:
     for i in range(len(nums)):
         for j in range(i + 1, len(nums)):
             if nums[i] == nums[j]:
@@ -18,8 +18,8 @@ print(contains_duplicate_brute([1, 2, 3, 4, 5, 1]))  # Output: True
 
 
 # Hash based way to check if the array contains duplicates
-def contains_duplicate(nums):
-    seen = set()
+def contains_duplicate(nums: list[int]) -> bool:
+    seen: set[int] = set()
 
     for num in nums:
         if num in seen:

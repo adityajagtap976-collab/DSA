@@ -4,7 +4,12 @@ from collections import deque
 
 
 class TreeNode:
-    def __init__(self, val=0, left=None, right=None):
+    def __init__(
+        self,
+        val: int = 0,
+        left: "TreeNode | None" = None,
+        right: "TreeNode | None" = None,
+    ) -> None:
         self.val = val
         self.left = left
         self.right = right
@@ -38,7 +43,7 @@ class TreeNode:
 # Find the maximum depth of a binary tree using Depth-First Search (DFS) recursively.
 
 
-def max_depth(root):
+def max_depth(root: "TreeNode | None") -> int:
     # 1. Base Case: An empty tree has a depth of 0.
     if root is None:
         return 0

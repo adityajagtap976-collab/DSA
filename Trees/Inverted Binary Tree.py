@@ -1,12 +1,20 @@
 # Invert a binary tree using iterative approach.
 
+from __future__ import annotations
+
 from collections import (
     deque,
 )
 from logging import root  # Import deque from collections for efficient queue operations
+from typing import Any, Protocol
 
 
-def invert_tree_iterative(root):
+class BinaryTreeNode(Protocol):
+    left: BinaryTreeNode | None
+    right: BinaryTreeNode | None
+
+
+def invert_tree_iterative(root: Any) -> Any:
     if not root:
         return None
 
@@ -40,7 +48,7 @@ inverted_root = invert_tree_iterative(root)
 
 
 # Invert a binary tree using recursive approach.
-def invert_tree(root):
+def invert_tree(root: BinaryTreeNode | None) -> BinaryTreeNode | None:
     if root is None:
         return None
 
